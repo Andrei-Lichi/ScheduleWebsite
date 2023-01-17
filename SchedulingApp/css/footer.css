@@ -1,0 +1,11 @@
+/* FOOTER */
+footer {
+  font-size: medium;
+  background-color: rgba(12, 32, 59, 0.85);
+
+  font-family: "Poppins";
+}
+
+footer h5 {
+  font-size: 1.7rem;
+}

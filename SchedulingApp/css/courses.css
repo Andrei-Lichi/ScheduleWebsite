@@ -1,0 +1,21 @@
+/* COURSE 1 */
+.course-1-title {
+  color: black;
+  font-size: 3rem;
+}
+.course-1-paragraph {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.course-1-subtitle {
+  color: #0c03b1;
+}
+
+section li {
+  margin: 0.4rem;
+}
+
+footer {
+  font-weight: bolder;
+  background-color: #04013d;
+}

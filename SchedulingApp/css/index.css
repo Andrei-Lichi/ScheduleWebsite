@@ -1,0 +1,97 @@
+:root {
+  --bg-gradient: linear-gradient(
+    to bottom,
+    rgba(12, 32, 59, 0.55),
+    rgba(12, 32, 59, 0.75)
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(12, 32, 59, 0.75);
+}
+
+a {
+  color: #b1b4bd;
+}
+/* GENERAL SECTION  */
+.section-title {
+  font-size: 2.3rem;
+  color: black;
+  font-weight: 500;
+}
+.paragraph {
+  /* padding: 0.5rem 5rem 2rem 5rem; */
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #b1b4bd;
+  text-align: justify;
+}
+
+.bg-img {
+  min-height: 600px;
+  background-position: center;
+  background-attachment: scroll, scroll;
+  background-size: auto, cover;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+
+.gallery-img {
+  min-height: 300px !important;
+}
+
+/* CAROUSEL ITEMS */
+.carousel-item-1 {
+  min-width: 500px;
+  background-image: var(--bg-gradient), url("../images/horsens1.jpg");
+}
+.carousel-item-2 {
+  background-image: var(--bg-gradient), url("../images/horsens2.jpg");
+}
+.carousel-item-3 {
+  background-image: var(--bg-gradient), url("../images/horsens4.jpg");
+}
+
+/* ABOUT US */
+
+.column-left {
+  background-image: var(--bg-gradient), url("../images/gallery2-min.jpg");
+}
+
+/* Software-engineering */
+.software-engineering-right {
+  background-image: var(--bg-gradient), url("../images/bg5-min.jpg");
+}
+
+/* GALLERY IMAGES */
+
+.galery-img-1 {
+  background-image: var(--bg-gradient), url("../images/image1.jpg");
+}
+
+.galery-img-2 {
+  background-image: var(--bg-gradient), url("../images/image2.jpg");
+}
+
+.galery-img-3 {
+  background-image: var(--bg-gradient), url("../images/image3.jpg");
+}
+
+.galery-img-4 {
+  background-image: var(--bg-gradient), url("../images/image4.jpg");
+}
+
+.galery-img-5 {
+  background-image: var(--bg-gradient), url("../images/image5.jpg");
+}
+
+.galery-img-6 {
+  background-image: var(--bg-gradient), url("../images/image6.jpg");
+}

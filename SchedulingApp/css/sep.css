@@ -1,0 +1,52 @@
+body {
+  color: rgba(12, 32, 59, 0.75);
+}
+
+.sep-section {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+#section_1 {
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(12, 32, 59, 0.55),
+    rgba(12, 32, 59, 0.75)
+  );
+  background-position: 0px 0px 100% 50%;
+  background-attachment: scroll, scroll;
+  background-size: auto, cover;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+@media screen and (max-width: 575px) {
+  #section_3 {
+    color: white;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(12, 32, 59, 0.55),
+      rgba(12, 32, 59, 0.75)
+    );
+    background-position: center;
+    background-attachment: scroll, scroll;
+    background-size: auto, cover;
+    object-fit: cover;
+    -o-object-fit: cover;
+  }
+}
+@media screen and (min-width: 576px) {
+  #section_4 {
+    color: white;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(12, 32, 59, 0.55),
+      rgba(12, 32, 59, 0.75)
+    );
+    background-position: center;
+    background-attachment: scroll, scroll;
+    background-size: auto, cover;
+    object-fit: cover;
+    -o-object-fit: cover;
+  }
+}

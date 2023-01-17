@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(133, 139, 155);
+  background-color: white;
+  box-sizing: border-box;
+}
+
+a {
+  color: #b1b4bd;
+}
+
+/* NAV+HEADER */
+.header-background {
+  top: 0%;
+  height: auto;
+  padding-bottom: 70px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 58, 69, 0.55),
+      rgba(50, 58, 69, 0.75)
+    ),
+    url("../images/banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1rem;
+  color: white;
+  font-size: 4rem;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
